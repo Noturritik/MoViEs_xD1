@@ -1,0 +1,82 @@
+{
+    "name": "MoViEs_xD1",
+    "description": "Ritikk_xd with Url Shortner",
+    "stack": "container",
+    "logo": "https://te.legra.ph/file/3e56f2a9ba06036be3a79.jpg",
+    "keywords": [
+      "telegram",
+      "auto-filter",
+      "filter",
+      "best",
+      "indian",
+      "pyrogram",
+      "media",
+      "search",
+      "channel",
+      "index",
+      "inline"
+    ],
+    "website": "https://github.com/Noturritik",
+    "repository": "https://github.com/Noturritik/MoViEs_xD1",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "5940237917:AAFckqyS-snA4EayLl8Pq4qQI8uUClvAACk",
+            "required": true
+        },
+        "API_ID": {
+            "description": "17170430",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "f592f4ea158042de9f3e3cb4e09d325c",
+            "required": true
+        },
+        "CHANNELS": {
+            "description": "MoViEs_xD1",
+            "required": false
+        },
+        "ADMINS": {
+            "description": "5911991454",
+            "required": true
+        },
+        "PICS": {
+            "description": "https://te.legra.ph/file/3e56f2a9ba06036be3a79.jpg",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "-1001893128378",
+            "required": true
+        },
+        "AUTH_USERS": {
+            "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
+            "required": false
+        },
+        "AUTH_CHANNEL": {
+            "description": "-1001858034916",
+            "required": false
+        },
+        "DATABASE_URI": {
+            "mongodb+srv://Ritik:ritik//!!?@cluster0.6qzamdp.mongodb.net/?retryWrites=true&w=majority",
+            "required": true
+        },
+        "DATABASE_NAME": {
+            "description": "ritikk_xD.",
+            "required": false
+        },
+        "COLLECTION_NAME": {
+            "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
+            "value": "Anurag_files",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
