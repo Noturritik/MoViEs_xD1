@@ -56,7 +56,7 @@
             "required": false
         },
         "DATABASE_URI": {
-            "mongodb+srv://Ritik:ritik//!!?@cluster0.6qzamdp.mongodb.net/?retryWrites=true&w=majority",
+            "mongodb+srv://naresh:nareshc68f@cluster0.6qzamdp.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
